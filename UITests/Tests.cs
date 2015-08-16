@@ -11,6 +11,8 @@ namespace MenuPage.UITests
 	[TestFixture (Platform.iOS)]
 	public class Tests
 	{
+
+		// will run across multiple platforms
 		IApp app;
 		Platform platform;
 

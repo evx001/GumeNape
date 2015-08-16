@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPage.Droid", "Droid\Men
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuPage.UITests", "UITests\MenuPage.UITests.csproj", "{5DB35657-AAA1-4857-A5CC-D6AE4CD94B68}"
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FSharpLib000", "FSharpLib000\FSharpLib000.fsproj", "{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -55,5 +57,17 @@ Global
 		{79A5FF73-E597-4614-A509-48B29473A6E0}.Release|iPhone.Build.0 = Release|iPhone
 		{79A5FF73-E597-4614-A509-48B29473A6E0}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{79A5FF73-E597-4614-A509-48B29473A6E0}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|iPhone.Build.0 = Release|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A64F3386-7CCF-4FF4-96F1-7ED8849A9B8F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

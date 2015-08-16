@@ -1,6 +1,8 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using System.Xml.Xsl;
+using Xunit;
 
 namespace MenuPage
 {
@@ -13,9 +15,11 @@ namespace MenuPage
 			MasterDetailPage = new MasterDetailPage {
 				Master = new MenuPage (),
 				Detail = new NavigationPage (new LinkPage ("A")),
+
 			};
 			MainPage = MasterDetailPage;
 		}
+
 
 		public class MenuPage: ContentPage
 		{
@@ -33,6 +37,7 @@ namespace MenuPage
 				BackgroundColor = Color.Gray.WithLuminosity (0.9);
 				Icon = Device.OS == TargetPlatform.iOS ? "menu.png" : null;
 			}
+
 		}
 
 		public class MainLink: Button
@@ -62,6 +67,9 @@ namespace MenuPage
 			}
 		}
 
+	
+
+
 		public class SubLink: Button
 		{
 			public SubLink (string name)
@@ -86,5 +94,6 @@ namespace MenuPage
 			// Handle when your app resumes
 		}
 	}
+
 }
 
